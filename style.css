@@ -1,0 +1,270 @@
+body{
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+margin: 0;
+padding: 0;
+}
+.box-container{
+    width: 75%;
+    height: fit-content;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+display: flex;
+flex-direction: column;
+
+}
+.textarea{
+width: 70%;
+margin: auto;
+text-align: center;
+}
+.textarea h1{
+    color:hsl(234, 12%, 34%);
+    font-size: 35px;
+    font-weight: 600;
+}
+.textarea h1 span{
+    color:hsl(229, 6%, 66%);
+   
+    font-size: 33px;
+    font-weight: 200;
+
+
+}
+.textarea p{
+    color: hsl(229, 6%, 66%);
+    font-size:18px;
+    
+}
+.boxarea{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    gap:30px
+}
+.twoboxes{
+    width: 28rem;
+    height:40rem;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+.box{
+
+    
+    width: 28rem;
+    height: 18rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    overflow: hidden;
+}
+.box h2{
+font-weight:600 ;
+padding: 1rem 3rem 0rem 2rem;
+}
+.boxes{
+ 
+    width: 28rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    overflow: hidden;
+}
+.boxes h2{
+    padding: 1rem 3rem 0rem 2rem;
+    font-weight:600 ;
+}
+
+.boxes p{
+    padding: 1rem 3rem 0rem 2rem;
+    font-size:16px ;
+    line-height: 1.5;
+    color: hsl(229, 6%, 66%);
+}
+.box p{
+    padding: 1rem 3rem 0rem 2rem;
+    font-size:16px ;
+    line-height: 1.5;
+    color: hsl(229, 6%, 66%);
+}
+.box-icon{
+    padding: 1rem 3rem 2rem 2rem;
+    display: flex;
+ 
+    justify-content: flex-end;
+}
+.shorelement {
+    width: 100%;
+    height: 5px;
+    
+}
+#seco
+{
+    background-color: hsl(0, 78%, 62%);
+}
+#firs
+{
+    background-color: hsl(180, 62%, 55%);
+}
+#thir
+{
+    background-color: hsl(34, 97%, 64%);
+}
+#forf
+{
+    background-color: hsl(212, 86%, 64%);
+}
+@media only screen and (max-width: 1440px) {
+    .boxarea{
+        margin: 0 auto;
+        margin-top: 5rem;
+        display: flex;
+        flex-direction: row;
+        align-items:center;
+        justify-content: space-around;
+        gap:20px;
+        width: 100%;
+    }
+    .twoboxes{
+        width: 30%;
+        height:40rem;
+        display: flex;
+        flex-direction: column;
+        gap:30px;
+    }
+    .box{
+    
+        
+        width: 30%;
+        height: 18rem;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        margin-bottom: 1rem;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        overflow: hidden;
+    }
+    
+    .boxes{
+     
+        width: fit-content;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        margin-bottom: 1rem;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        overflow: hidden;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .box-container{
+        width: 95%;
+        height: 70rem;
+        background-color: rgb(255, 255, 255);
+        margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    }
+    .textarea{
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    }
+    .textarea h1{
+        color:hsl(234, 12%, 34%);
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .textarea h1 span{
+        color:hsl(229, 6%, 66%);
+       
+        font-size: 23px;
+        font-weight: 200;
+    
+    
+    }
+    .textarea p{
+        color: hsl(229, 6%, 66%);
+        font-size:15px;
+        
+    }
+    .boxarea{
+        margin: 5rem auto;
+        display: flex;
+        flex-direction:  column;
+        align-items:center;
+        justify-content: center;
+        gap:30px
+    }
+    .twoboxes{
+        width: 18rem;
+        
+        height:40rem;
+        display: flex;
+        flex-direction: column;
+        gap:30px;
+    }
+    .box{
+    
+        
+        width: 18rem;
+        height:20rem;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        margin-bottom: 1rem;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        overflow: hidden;
+    }
+    .box h2{
+    font-weight:600 ;
+    padding: 1rem 3rem 0rem 2rem;
+    }
+    .boxes{
+     margin: auto;
+        width: 18rem;
+        height:20rem;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        margin-bottom: 1rem;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        overflow: hidden;
+    }
+    .boxes h2{
+        padding: 1rem 3rem 0rem 2rem;
+        font-weight:600 ;
+    }
+    
+    .boxes p{
+        padding: 1rem 3rem 0rem 2rem;
+        font-size:16px ;
+        line-height: 1.5;
+        color: hsl(229, 6%, 66%);
+    }
+    .box p{
+        padding: 1rem 3rem 0rem 2rem;
+        font-size:16px ;
+        line-height: 1.5;
+        color: hsl(229, 6%, 66%);
+    }
+    .box-icon{
+        padding: 1rem 3rem 2rem 2rem;
+        display: flex;
+     
+        justify-content: flex-end;
+    }
+    .shorelement {
+        width: 100%;
+        height: 5px;
+        
+    }
+    .attribution{
+        margin: 40rem auto;
+        text-align: center;
+        width: 90%;
+        
+    }
+}
